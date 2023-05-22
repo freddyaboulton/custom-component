@@ -1,0 +1,16 @@
+[gradio.component]
+name = "molecule-editor"
+description = "Component for editing molecules in gradio"
+license = "Apache-2.0"
+requires-svelte = ""
+authors = [
+  { name = "Someone", email = "name@gemail.com" },
+]
+
+[gradio.backend]
+directory = "python/"
+requires-python = ">=3.7"
+
+[gradio.frontend]
+directory = "js/"
+
